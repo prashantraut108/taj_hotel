@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Lobster&family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #fff;
+    color: rgb(39, 6, 91);
+}
+
+
+/* ///////////////// navbar section  start //////////////////// */
+
+nav {
+    background: #011829c6;
+    width: 100%;
+}
+
+.logo a {
+    color: rgb(243, 208, 119);
+    font-size: 2rem;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.logo a:hover {
+    color: rgb(228, 166, 12);
+}
+
+.navbar-nav a {
+    color: #dad8d8;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-nav a:hover {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+header .navbar-toggler {
+    background-color: #c2bebed6;
+}
+
+.logobtn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logobtn button {
+    border: 2px solid #9f9e9e;
+    background-color: #022741f6;
+    padding: .3rem 2rem .3rem;
+    border-radius: 20px;
+    margin-left: 5rem;
+}
+
+.logobtn1 button {
+    border: 3px solid #d5d4d4;
+    background-color: #022741c4;
+    padding: .5rem 2rem .5rem;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+.logobtn button:hover {
+    background: #dc3545;
+    font-weight: bold;
+}
+
+.logobtn1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logobtn1 button:hover {
+    background: #dc3545;
+    font-weight: bold;
+}
+
+header .carousel-caption p {
+    font-style: italic;
+    text-shadow: .5px 2px 1px black;
+}
+
+.dropdown-menu {
+    background: #4b4a4a;
+}
+
+header .carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+header .carousel-caption h1 {
+    margin-bottom: 24rem;
+    margin-right: 35rem;
+    font-family: 'Rye', cursive;
+    font-size: 2.5rem;
+    color: rgb(3, 95, 138);
+    text-shadow: 3px 3px 5px #fff;
+    font-style: italic;
+}
+
+
+
+/* ///////////////// navbar section  end //////////////////// */
+
+.heading {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 3rem;
+}
+
+.heading span {
+    background: orangered;
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0%, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+/* //////// about section start  /////////// */
+
+.about {
+    margin-top: 5rem;
+}
+
+.about .aboutpara {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.about .aboutpara i {
+    font-size: 1.5rem;
+    color: rgba(255, 209, 2, 0.719);
+    font-style: italic;
+}
+
+.about .aboutimg img {
+    height: 37rem;
+    border: 5px solid rgb(152, 150, 150);
+    transition: all .59s cubic-bezier(.15, 0, .15, 1);
+}
+
+.about .aboutimg img:hover {
+    box-shadow: .1rem .1rem 2rem #3d3d3d;
+}
+
+/* //////// about section End   /////////// */
+
+
+
+/* //////// Rooms section start /////////// */
+
+.rooms {
+    margin-top: 7rem;
+}
+
+.rooms .roomsbtn {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.rooms .card {
+    margin: 1rem;
+    transition: all .28s cubic-bezier(.15, 0, .15, 1);
+}
+
+.rooms .roomsbtn{
+    padding: .5rem 4rem .5rem;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 11px;
+    background-color: #080437cd;
+    color: #fff;
+}
+
+.rooms .card p {
+    color: orangered;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.rooms .card:hover {
+    box-shadow: .1rem .1rem 1rem #3d3d3d;
+    transform: translateY(-4px);
+    color: rgb(64, 6, 255);
+    border: 1px solid #fff;
+}
+
+.rooms .card:hover .roomsbtn {
+    background-color: #dc3545;
+    border: 1px solid #fff;
+}
+
+.rooms .card img {
+    height: 25rem;
+    border-radius: 5px;
+}
+
+/* //////// Rooms section End   /////////// */
+
+
+
+/*///////// services section start ///////// */
+
+.service{
+    margin-top:7rem;
+}
+
+.services .carousel .carousel-item img {
+    height: 37rem;
+    width: 50%;
+    padding: .1rem;
+    border-radius: 5px;
+}
+
+
+.services .carousel .carousel-item h1 {
+    margin-bottom: 30rem;
+    margin-right: 40rem;
+    font-family: 'Rye', cursive;
+}
+
+.services .carousel .carousel-item h2 {
+    margin-bottom: 30rem;
+    margin-left: 45rem;
+    font-family: 'Rye', cursive;
+}
+
+.services .carousel .carousel-item .mumbai h1 {
+    color: rgb(123, 103, 1);
+}
+
+.services .carousel .carousel-item .mumbai h2 {
+    color: rgb(123, 103, 1);
+}
+
+.services .carousel .carousel-item .delhi h1 {
+    color: rgba(234, 132, 42, 0.736);
+}
+
+.services .carousel .carousel-item .delhi h2 {
+    color: rgb(234, 132, 42, 0.736);
+}
+
+.services .carousel .carousel-item .manali h1 {
+    color: rgb(3, 143, 140);
+}
+
+.services .carousel .carousel-item .manali h2 {
+    color: rgb(119, 238, 236);
+}
+
+.services .carousel .carousel-item .rajasthan h1 {
+    color: rgba(234, 132, 42, 0.736);
+    font-size: 2rem;
+}
+
+.services .carousel .carousel-item .rajasthan h2 {
+    color: rgba(234, 132, 42, 0.736);
+    font-size: 2rem;
+}
+
+.services .carousel .carousel-item .andhrapradesh h1 {
+    color: rgb(1, 71, 1);
+}
+
+.services .carousel .carousel-item .andhrapradesh h2 {
+    color: rgb(1, 71, 1);
+}
+
+.services .carousel .carousel-item .kashmir h1 {
+    color: rgb(1, 27, 71);
+    font-size: 2rem;
+}
+
+.services .carousel .carousel-item .kashmir h2 {
+    color: rgb(1, 27, 71);
+}
+
+.services .card-footer button {
+    padding: .5rem 5rem .5rem 5rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #b0afae;
+}
+
+.services .card-footer button:hover {
+    background-color: rgb(1, 1, 81);
+}
+
+/*////////// services section End  /////////*/
+
+
+/* //////// team section start /////////// */
+
+.team {
+    margin-top: 7rem;
+}
+
+.team .card {
+    transition: all .28s cubic-bezier(.15, 0, .15, 1);
+}
+
+.team .card:hover {
+    box-shadow: .1rem .1rem 1rem #3d3d3d;
+    transform: translateY(-10px);
+}
+
+.team .card img {
+    height: 25rem;
+    border-radius: .3rem;
+}
+
+.team .card h5 {
+    color: goldenrod;
+}
+
+.team .card-footer a {
+    color: rgba(6, 12, 123, 0.862);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.team .card-footer a:hover {
+    color: rgb(5, 161, 161);
+}
+
+/* //////// team section End /////////// */
+
+
+/*////////// gallery section start /////////// */
+
+.gallery img {
+    border: .1rem solid #a6a5a5;
+    margin-top: 1rem;
+    height: 30vh;
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.gallery .row img:hover {
+    box-shadow: .1rem .1rem .4rem #323131;
+    transform: scale(1.3);
+    border: none;
+}
+
+/*////////// gallery section  /////////// *
+
+
+/* /////// review section start //////// */
+
+.review {
+    margin-top: 5rem;
+}
+
+.review .row {
+    box-shadow: 2px 2px 12px black;
+}
+
+.review i {
+    font-size: 1.5rem;
+    color: rgba(255, 209, 2, 0.719);
+    font-style: italic;
+}
+
+.review img {
+    border-radius: 50%;
+    height: 15vh;
+    border: 5px solid #d6d4d4;
+}
+
+.review .review-c {
+    background: #818080;
+    border: 5px solid #fff;
+    padding: 50px 0px 50px 20px;
+    transition: transform 0.3s;
+    background-image: linear-gradient(0deg, rgba(90, 91, 91, 0.721), rgba(12, 188, 186, 0.534));
+}
+
+
+.review .review-c p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+
+.review .review-c h3 {
+    color: #fff;
+}
+
+.review .review-c h5 {
+    color: #c7c7c7;
+}
+
+.review .review-c:hover {
+    transform: scale(1.1);
+}
+
+/*//////// review section end //////// */
+
+
+/*//////// Form section start //////// */
+.form2 {
+    margin-top: 7rem;
+}
+
+.form1 {
+    background: #ececec;
+    padding: 2rem;
+}
+
+.form1 .row {
+    border: 1px solid rgb(150, 148, 148);
+}
+
+.form1 h1 {
+    font-family: 'Lobster', cursive;
+    color: #1104a1;
+}
+
+.form1 p {
+    color: #a10404;
+    font-weight: bolder;
+}
+
+.form1 .reservation {
+    text-align: left;
+    padding: 1rem;
+    color: #4b4b4b;
+    box-sizing: border-box;
+}
+
+.form1 .form-group input {
+    background-color: #dddddd;
+    border-color: #a2a0a0;
+}
+
+.form1 .form-group input:hover {
+    border-color: goldenrod;
+}
+
+.form1 .form-group select {
+    background-color: #dddddd;
+    border-color: #a2a0a0;
+}
+
+.form1 .form-group select:hover {
+    border-color: goldenrod;
+}
+
+.form1 .form-group textarea {
+    background-color: #dddddd;
+    border-color: #a2a0a0;
+}
+
+.form1 .form-group textarea:hover {
+    border-color: goldenrod;
+}
+
+.form1 .bookbtn {
+    padding: 2rem;
+}
+
+.form1 button {
+    padding: .8rem 5rem .8rem 5rem;
+    border-radius: 5rem;
+    font-size: larger;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.form1 button:hover {
+    background-color: goldenrod;
+    color: #fff;
+    transition: all .5s;
+}
+
+/*//////// Form section end //////// */
+
+
+/*/////// contact us section start /////// */
+
+.contactus .row1 {
+    padding: 2rem;
+}
+
+.contactus .row1 img {
+    height: 30vh;
+    width: 100%;
+    border: 2px solid #a7a5a5;
+}
+
+.contactus i {
+    font-size: 3rem;
+    margin-top: 1.4rem;
+    padding: 1.3rem;
+    border-radius: 50%;
+    background-color: #0d0372;
+    color: #fff;
+}
+
+.contactus i:hover {
+    background-color: #e19512;
+}
+
+.contactus h2 {
+    margin-left: 3rem;
+    font-size: 1.7rem;
+}
+
+.contactus p {
+    margin-left: 3rem;
+    font-size: 1.3rem;
+    color: #252424cf;
+}
+
+.contactus textarea {
+    border: 1px solid #8e8c8c;
+}
+
+/*/////// contact us section End /////// */
+
+
+/*///////// footer section start //////////// */
+
+.footer {
+    margin-top: 7rem;
+}
+
+.footer .footer-info i {
+    font-size: 1.1rem;
+    padding: .5rem;
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 50%;
+    background-color: rgb(39, 6, 91);
+    color: #edeaea;
+}
+
+.footer .footer-info i:hover {
+    background-color: #fff;
+    color: rgb(59, 6, 250);
+}
+
+.footer .footer-links li {
+    list-style: none;
+}
+
+.footer .footer-links i {
+    font-size: .7rem;
+    color: #fe9914;
+}
+
+.footer .footer-links a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+    color: #f8930e;
+}
+
+.footer p {
+    color: #3d3d3d;
+}
+
+.footer .footer-newsletter .inputb {
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.footer .footer-newsletter .inputb:hover {
+    background-color: #f6ab2a;
+    color: #fff;
+}
+
+.footer .footer-newsletter input {
+    padding: .5rem;
+    border: 1px solid #a8a7a7;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bolder;
+    color: #8e8c8c;
+}
+
+/*///////// footer section end //////////// */
+
+
+/*///////// copyriight section start //////////// */
+
+.copyright {
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: #ececec;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.copyright1 {
+    font-size: .9rem;
+}
+
+.copyright span {
+    color: orangered;
+}
+
+/*///////// copyriight section end //////////// */
+
+
+/*////////////////////////////////////////////////////////////////// media quary ////////////////////////////////// */
+
+
+@media(max-width :768px) {
+    html {
+        font-size: 50%;
+    }
+
+    header .carousel-item img {
+        height: 50vh;
+        width: 110%;
+    }
+
+    .services .carousel-caption {
+        display: none;
+    }
+
+    .services .carousel .carousel-item img {
+        height: 19rem;
+        width: 50%;
+        padding: .1rem;
+    }
+
+    .services .card-footer .servicesbtn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .contactus i {
+        font-size: 1rem;
+        padding: .8rem;
+    }
+}
+
+/* ////////////////////////////////////////////////////// 1024 ///////////////////////// */
+
+
+
+@media(max-width :1024px) {
+    html {
+        font-size: 70%;
+    }
+
+    .carousel-item img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .home .carousel-caption h1 {
+        font-size: 2rem;
+        margin-bottom: 10rem;
+        margin-right: 10rem;
+    }
+
+    .home .carousel-caption h1 {
+        font-size: 1rem;
+        margin-bottom: 10rem;
+        margin-right: 10rem;
+    }
+
+    .services .carousel-caption {
+        display: none;
+    }
+
+    .logobtn1 button {
+        border: 3px solid #d5d4d4;
+        background-color: #022741c4;
+        padding: .3rem 1rem .3rem;
+        border-radius: 25px;
+        margin-bottom: 1rem;
+    }
+
+    header .carousel-caption p {
+        display: inline-block;
+        font-size: 50%;
+    }
+
+    .services .card-footer .servicesbtn {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}

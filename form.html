@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Project03_Taj_Hotel/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header>
+        <!-- navbar start -->
+        <div id="home" class="container-fluid home">
+            <div class="col">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg px-5 fixed-top">
+                        <h1 class="logo"><a href="index.html" class="navbar-brand "> <i
+                                    class="fa-regular fa-snowflake"></i> TAJ HOTEL</a></h1>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                            type="button">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div id="mynavbar" class="collapse navbar-collapse justify-content-end">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle"
+                                        data-bs-toggle="dropdown" href="#sevices">Hotel Services</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#sevices">MUMBAI</a>
+                                        <a class="dropdown-item" href="#sevices">GOA</a>
+                                        <a class="dropdown-item" href="#sevices">MANALI</a>
+                                        <a class="dropdown-item" href="#sevices">Delhi</a>
+                                        <a class="dropdown-item" href="#sevices">Mysore</a>
+                                        <a class="dropdown-item" href="#sevices">Jammu and Kashmir</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#reservation">Reservation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contactus">Contact us</a></li>
+                            </ul>
+                            <form action="" class="logobtn">
+                                <div class="btn-group">
+                                    <button type="submit"><a href="/Project03_Taj_Hotel/form.html"> BOOK NOW</a></button>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                </header>
+
+
+
+    <section id="reservation" class="container text-center form2">
+        <div class="form1">
+            <div class="row d-flex">
+                <div class="reservation">
+                    <h4>RESERVATION</h4>
+                </div>
+                <div class="mb-5">
+                    <h1>Registration Form</h1>
+                    <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" fdprocessedid="wvbxrb">
+                    <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                        data-rule="email" data-msg="Please enter a valid email" fdprocessedid="5214c8">
+                    <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" fdprocessedid="0wjk5b">
+                    <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3">
+                    <input type="text" name="date" class="form-control" id="date" placeholder="Date"
+                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" fdprocessedid="ftgzfj">
+                    <div class="validate"></div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 form-group mt-3">
+                    <select name="" id="" class="form-select">
+                        <option selected value="" class="selecttext" aria-label=".form-select-sm example"></option>
+                        <option value="">Mumbai</option>
+                        <option value="">Goa</option>
+                        <option value="">Manali</option>
+                        <option value="">Delhi</option>
+                        <option value="">Mysore</option>
+                        <option value="">Kashmir</option>
+                    </select>
+                    <div class="validate"></div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 form-group mt-3">
+                    <input type="number" class="form-control" name="people" id="people" placeholder="No of people"
+                        data-rule="minlen:1" data-msg="Please enter at least 1 chars" fdprocessedid="qewejb">
+                    <div class="validate"></div>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="text-center bookbtn"><button type="submit" fdprocessedid="sio8ew">Book a Table</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
